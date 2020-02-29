@@ -1,1 +1,5 @@
-# crud-express
+# CRUD express
+
+```
+    npm int
+```
