@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-app.get('/', function(req, res){
+app.get('/', (req, res) => {
     res.send('Olá mundo');
 });
 
-app.listen(8080, function() {
+app.listen(8080, () => {
     console.log('Executando');
 });
