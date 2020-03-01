@@ -21,3 +21,9 @@
     npm rum dev
 ```
 
+### Instalar o ejs:
+```
+   npm install ejs
+```
+
+
