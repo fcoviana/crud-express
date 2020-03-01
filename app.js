@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 app.get('/', (req, res) => {
-    res.send('Olá mundo');
+    res.sendFile(__dirname + '/src/view/index.html');
 });
 
 app.listen(8080, () => {
